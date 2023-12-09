@@ -2,16 +2,16 @@ appToMount.component('navigation-bar', {
   template:
     /*html*/
     `      
-    <nav class="navbar is-white-3" :class="{shown: isShown}" role="navigation" aria-label="main navigation">
+    <nav class="navbar is-fixed-top is-white-3" :class="{shown: isShown}" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
-        <a class="navbar-item no-padding-h" :href="websiteLink">
+        <div class="navbar-item no-padding-h">
           <img :src="iconPath" height="32" />
           <p class="text-website-name">{{websiteName}}</p>
-        </a>
+        </div>
       </div>
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-start">
-        <a class="navbar-item">Home</a>
+        <a class="navbar-item" v-on:click="scrollToSection('home')">Home</a>
         <a class="navbar-item">Play</a>
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link">Learn</a>
@@ -39,7 +39,6 @@ appToMount.component('navigation-bar', {
   data() {
     return {
       websiteName: 'AquaLearn',
-      websiteLink: 'https://giociudadano.github.io',
       iconPath: './src/assets/icon.png',
       isShown: false
     };
