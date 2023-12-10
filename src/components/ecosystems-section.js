@@ -1,11 +1,30 @@
 appToMount.component('ecosystems-section', {
   template:
     /*html*/
-    `<section class="hero is-medium section-header" id="ecosystems">
+    `<section class="hero is-medium section-header is-white-3" id="ecosystems">
       <div class="hero-body">
         <div class="columns is-mobile is-centered">
           <div class="column is-11">
+          <p class="text-subheader-3-accent-3">Ecosystems</p>
             <p class="no-margin title text-header-2">Aquatic Adventures!</p>
+            <div class="columns is-centered">
+              <div class="column is-5">
+              <div class="card padding-wide">
+              <p class="text-desc-black">Shaped by the cool islands we have, come now! Let us explore the amazing world of aquatic ecosystem - a place where water brings various landscapes to life!<br><br>
+              <b>Why it is important:</b><br>
+
+              - It Saves Lives<br>
+              - Keeps Us and Everything in Harmony<br>
+              - Gives You and Me Important Stuff<br><br>
+
+              What are you waiting for? Let us dive into the wonders of our water world!
+
+              </p>
+              </div>
+              </div>
+            </div>
+            <br><br>
+            <p class="text-subheader-3-accent-4">Types of Ecosystems</p>
             <div class="columns">
               <div class="column has-text-centered">
                 <div class="card">

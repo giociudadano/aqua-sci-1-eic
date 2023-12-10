@@ -28,9 +28,10 @@ appToMount.component('hero-section', {
       </div>
       <div class="hero-body no-padding-h">
         <div class="columns hero-info">
-          <div class="column is-two-fifths is-offset-1">
+          <div class="column is-7 is-offset-1">
             <p class="no-margin title text-header-1">{{title}}</p>
-            <p class="subtitle text-desc-black">{{description}}</p>
+            <p class="subtitle text-desc-black">Young curious explorers, welcome to AquaLearn - your gateway to the wonders of the world beneath the waves.<br><br>
+            Be part of becoming a guardian of the sea! You can discover how we can all play a part in keeping our marine ecosystem healthy and clean for a bright future.</p>
           </div>
         </div>
       </div>
@@ -70,7 +71,7 @@ appToMount.component('hero-section', {
         </div>
       </div>
     </section>
-    <section class="hero is-medium">
+    <section class="hero is-medium is-white-2">
       <div class="hero-body no-padding-h">
         <div class="columns is-mobile is-centered">
           <div class="column is-two-thirds">
@@ -130,18 +131,14 @@ appToMount.component('hero-section', {
       sections: [
         { name: 'Play', id: 'play' },
         { name: 'Ecosystems', id: 'ecosystems' },
-        { name: 'Management', id: 'management' },
+        { name: 'Sustainability', id: 'sustainability' },
+        { name: 'Governance', id: 'governance' },
         { name: 'Documentaries', id: 'documentaries' },
         { name: 'About Us', id: 'about-us' },
         { name: 'References', id: 'references' }
       ],
       title: 'Welcome to AquaLearn!',
-      subtitle: 'Software Engineer Intern',
-      description:
-        'Young curious explorers, welcome to AquaLearn - your gateway to the wonders of the world beneath the waves.\n\
-        Be part of becoming a guardian of the sea! You can discover how we can all play a part in keeping our marine \
-        ecosystem healthy and clean for a bright future.\
-        '
+      subtitle: 'Software Engineer Intern'
     };
   },
   methods: {

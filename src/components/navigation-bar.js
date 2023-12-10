@@ -17,7 +17,8 @@ appToMount.component('navigation-bar', {
           <a class="navbar-link">Learn</a>
           <div class="navbar-dropdown">
             <a class="navbar-item" v-on:click="scrollToSection('ecosystems')">Ecosystems</a>
-            <a class="navbar-item" v-on:click="scrollToSection('management')">Management</a>
+            <a class="navbar-item" v-on:click="scrollToSection('sustainability')">Sustainability</a>
+            <a class="navbar-item" v-on:click="scrollToSection('governance')">Governance</a>
             <a class="navbar-item" v-on:click="scrollToSection('documentaries')">Documentaries</a>
             <hr class="navbar-divider" />
             <a class="navbar-item" v-on:click="scrollToSection('about-us')">About Us</a>
