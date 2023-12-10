@@ -12,16 +12,16 @@ appToMount.component('navigation-bar', {
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-start">
         <a class="navbar-item" v-on:click="scrollToSection('home')">Home</a>
-        <a class="navbar-item">Play</a>
+        <a class="navbar-item" v-on:click="scrollToSection('play')">Play</a>
         <div class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link">Learn</a>
           <div class="navbar-dropdown">
-            <a class="navbar-item">Aquatic Ecosystems</a>
-            <a class="navbar-item">Management</a>
-            <a class="navbar-item">Documentaries</a>
+            <a class="navbar-item" v-on:click="scrollToSection('ecosystems')">Ecosystems</a>
+            <a class="navbar-item" v-on:click="scrollToSection('management')">Management</a>
+            <a class="navbar-item" v-on:click="scrollToSection('documentaries')">Documentaries</a>
             <hr class="navbar-divider" />
-            <a class="navbar-item">About Us</a>
-            <a class="navbar-item">References</a>
+            <a class="navbar-item" v-on:click="scrollToSection('about-us')">About Us</a>
+            <a class="navbar-item" v-on:click="scrollToSection('references')">References</a>
           </div>
         </div>
       </div>
