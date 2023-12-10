@@ -5,7 +5,7 @@ appToMount.component('play-section', {
       <div class="hero-head">
       <div class="columns is-full is-centered">
       <div class="column">
-      <!--<iframe src="https://ocean-ecosystem.vercel.app/" style="width:100%;height:550px"></iframe>-->
+      <iframe src="https://ocean-ecosystem.vercel.app/" style="width:100%;height:550px"></iframe>
       </div>
       </div>
       

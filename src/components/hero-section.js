@@ -68,14 +68,10 @@ appToMount.component('hero-section', {
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-    <section class="hero is-medium is-white-2">
-      <div class="hero-body no-padding-h">
+        </div><br><br>
         <div class="columns is-mobile is-centered">
           <div class="column is-two-thirds">
-            <p class="no-margin title text-header-2">Fun Facts</p>
+            <p class="no-margin title text-subheader-3-accent-4">Fun Facts</p>
             <div class="columns">
               <div class="column">
               <div class="card">
@@ -134,8 +130,7 @@ appToMount.component('hero-section', {
         { name: 'Sustainability', id: 'sustainability' },
         { name: 'Governance', id: 'governance' },
         { name: 'Documentaries', id: 'documentaries' },
-        { name: 'About Us', id: 'about-us' },
-        { name: 'References', id: 'references' }
+        { name: 'About Us', id: 'about-us' }
       ],
       title: 'Welcome to AquaLearn!',
       subtitle: 'Software Engineer Intern'

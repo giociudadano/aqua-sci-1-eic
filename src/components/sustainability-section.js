@@ -66,8 +66,8 @@ appToMount.component('sustainability-section', {
             <div class="card padding-wide">
 
             <p class="text-subheader-3-accent-4">Challenges</p>
-            <p class="text-desc-black">Every year, humans harvest more fish than what can we replaced in the oceans. Therefore, it is important for us to practice <b>sustainability</b> - the practice of making sure that our limited resources can continue to provide others for many years to come.<br><br>
-            The ocean is beautiful and here are some of the reasons why we should continue to protect it:
+            <p class="text-desc-black">However, there are a few challenges to <b>sustainability</b> - humans harvest too much fish, humans destroy the habitats of many animals, and humans pollute the ocean making entire ecosystems unliveable. <br><br>
+            Because of this, less and less fish are produced by the ocean each year and as our population increase, we continue to consume more and more fish each year.
             </p>
             </div>
             </div>

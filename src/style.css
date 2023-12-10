@@ -90,6 +90,17 @@
   text-align: center;
 }
 
+.text-header-2-5 {
+  font-family: 'Bahnschrift';
+  font-weight: 700;
+  font-size: 32px;
+  color: rgb(40, 40, 40);
+  line-height: 0.8;
+  letter-spacing: -1px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
 .text-header-3 {
   font-family: 'Bahnschrift';
   font-weight: 700;
@@ -178,6 +189,16 @@
   font-size: 14.5px;
   letter-spacing: -0.3px;
   color: rgb(60, 60, 60);
+  text-align: justify;
+  line-height: 1.2;
+}
+
+.text-desc-black-2 {
+  font-family: 'Bahnschrift Semicondensed';
+  font-weight: 350;
+  font-size: 13px;
+  letter-spacing: -0.3px;
+  color: rgb(166, 166, 166);
   text-align: justify;
   line-height: 1.2;
 }

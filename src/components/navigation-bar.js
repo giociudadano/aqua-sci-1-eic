@@ -22,7 +22,6 @@ appToMount.component('navigation-bar', {
             <a class="navbar-item" v-on:click="scrollToSection('documentaries')">Documentaries</a>
             <hr class="navbar-divider" />
             <a class="navbar-item" v-on:click="scrollToSection('about-us')">About Us</a>
-            <a class="navbar-item" v-on:click="scrollToSection('references')">References</a>
           </div>
         </div>
       </div>
